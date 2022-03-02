@@ -1,0 +1,113 @@
+body {
+    background: url('./img/math-gbf499e816_1920.jpg') bottom center;
+    
+}
+.bodydiv {
+    display: flex;
+    align-items: center;
+    justify-content:space-around    ;
+
+    height: 930px;
+    padding: 0;
+    margin: 0;
+}
+.cuadro {
+    height: 710px;
+    width: 530px;
+    border: solid black 5px;
+    border-radius: 40px;
+    background-color: rgba(0,0,0,0.2);
+    
+}
+.screens {
+    height: 190px;
+    width:  100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.screen {
+    height: 120px;
+    width:  460px;
+    border: solid black 5px;
+    display: flex;
+    border-radius: 20px;
+    background-color: rgba(0,0,0,0.3);
+    flex-direction: column;
+}
+.mid {
+    height: 100px;
+    width:  100%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bmid {
+    height: 70px;
+    width: 260px;
+    border: solid black 4px;
+    border-radius: 20px;
+    background-color: rgba(0,0,0,0.3);
+    margin-right: 30px;
+    margin-left: 30px;
+    transition: all .07s ease;
+    font-size: 38px;
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    column-gap: 28px;
+    row-gap: 30px;
+    height: 400px;
+}
+
+.btn {
+    width: 18%;
+    background-color: rgba(0,0,0,0.3);
+    height: 60px;
+    border-radius: 20px;
+    border: solid black 4px;
+    transition: all .07s ease;
+    font-size: 38px;
+    color: white;
+    
+}
+.btn:hover {
+    transform: scale(1.1);
+    background-color: rgba(0,0,0,0.5);
+}
+.bmid:hover {
+    transform: scale(1.1);
+    background-color: rgba(0,0,0,0.5);
+}
+
+.screen1 {
+    height: 30%;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    padding-right: 10px;
+    padding-top: 10px;
+    font-size: 26px;
+    color: white;
+}
+
+.screen2 {
+    height: 65%;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    font-size: 38px;
+    color: white;
+}
+
